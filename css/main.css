@@ -21,6 +21,50 @@ h1#title {
 	margin-top: -30px;
 }
 
+.big-button {
+	padding: 10px;
+	height: 50px;
+}
+
+#download-links {
+	width: 670px;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 90px;
+}
+
+#download-links:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.big-button.main-download {
+	background-color: #0066cc;
+	color: #ffffff;
+	height: 50px;
+	width: 300px;
+	float: left;
+}
+
+.big-button.source-download {
+	background-color: #438AD1;
+	color: #ffffff;
+	margin-left: 50px;
+	float: left;
+}
+
+.big-button i {
+	float: left;
+}
+
+.big-button p {
+	float: left;
+	margin-top: 13px;
+	margin-left: 25px;
+	font-size: 20px;
+}
+
 #title-block {
 	text-align: center;
 	margin-top: 50px;

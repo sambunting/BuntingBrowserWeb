@@ -20,7 +20,17 @@
 			<img src="img/screenshots/screenshot3.png">
 		</div>	
 
-		<p id="download-text"><br><br><a href="https://github.com/sambunting/BuntingBrowser/archive/master.zip">DOWNLOAD NOW!!</a><br><br><small>I'll make a proper download button soon. Promise.</small></p>
+		<div id="download-links">
+			<a href="https://github.com/sambunting/BuntingBrowser/archive/master.zip"><div class="big-button main-download">
+				<i class="fa fa-3x fa-windows" aria-hidden="true"></i>
+				<p>Download For Windows</p>
+			</div></a>
+
+			<a href="https://github.com/sambunting/BuntingBrowser/"><div class="big-button source-download">
+				<i class="fa fa-3x fa-github" aria-hidden="true"></i>
+				<p>Download Source Code</p>
+			</div></a>
+		</div>
 	
 		<div id="section-why" class="section container">
 			<h2>Why BuntingBrowser?</h2>
